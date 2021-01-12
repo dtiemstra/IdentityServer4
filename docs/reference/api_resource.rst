@@ -32,8 +32,8 @@ The ``AddInMemoryApiResource`` extensions method also supports adding API resour
                 "DisplayName": "Resource #1",
 
                 "Scopes": [
-                    "resource1.scope1",
-                    "shared.scope"
+                    {"Name": "resource1.scope1"},
+                    {"Name": "shared.scope"}
                 ]
             },
             {
@@ -46,8 +46,8 @@ The ``AddInMemoryApiResource`` extensions method also supports adding API resour
                 ],
 
                 "Scopes": [
-                    "resource2.scope1",
-                    "shared.scope"
+                    {"Name": "resource2.scope1"},
+                    {"Name": "shared.scope"}
                 ]
             }
         ]
